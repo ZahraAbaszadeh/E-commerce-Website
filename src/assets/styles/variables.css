@@ -1,9 +1,28 @@
 :root {
-    --Blue-Violet: #845EC2;
-    --Super-Pink: #D65DB1;
-    --Light-Crimson: #FF6F91;
-    --Atomic-Tangerine: #FF9671;
-    --Orange-Yellow: #FFC75F;
-    --Sunny: #F9F871;
-}
+  --Blue-Violet: #845ec2;
+  --Super-Pink: #d65db1;
+  --Light-Crimson: #ff6f91;
+  --Atomic-Tangerine: #ff9671;
+  --Orange-Yellow: #ffc75f;
+  --Sunny: #f9f871;
 
+  /*Buttons Color*/
+  --primary: #00a0d2;
+  --secondary: #f3f3f3;
+  --success: #3bac55;
+  --danger: #dc3545;
+  --warning: #ffc107;
+  --info: #6190d3;
+  --light: #f8f9fa;
+  --dark: #343a40;
+
+  /*Button Sizes*/
+  --small: scale(0.8);
+  --normal: scale(1);
+  --large: scale(1.2);
+  --xlarge: scale(1.5);
+  --xxlarge: scale(2);
+
+  /*Button Border*/
+  --border-radius: 0.5rem;
+}
