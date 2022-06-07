@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Styles from "./header.module.css";
 import Logo from "assets/images/logos/logo.png";
 import { BsFillCartCheckFill, RiUser2Fill } from "assets/images/icons";
-import { Navigation } from "components";
+import { Navigation } from "../../components/Navigation/NavigationComponent";
 import { useSelector } from "react-redux";
 import { GetCategories } from "api/getCategory";
 
