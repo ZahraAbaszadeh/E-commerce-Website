@@ -1,0 +1,541 @@
+{
+  "products": [
+    {
+      "id": 23,
+      "product-name-en": "iPhone 12",
+      "product-name-fa": "آیفون 12",
+      "images": ["d16b9de0b046c5aa5079c0b7b38d2cd4"],
+      "thumbnail": "d16b9de0b046c5aa5079c0b7b38d2cd4",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "29000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "",
+        "fa": "<div style=\"color: #eeffff;background-color: #263238;font-family: Consolas, 'Courier New', monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;\"><div><span style=\"color: #c3e88d;\">گوشی موبایل اپل مدل iPhone 12 دو سیم‌ کارت ظرفیت 128 گیگابایت</span></div></div>"
+      },
+      "count": 13,
+      "createdAt": 1653318607827,
+      "updatedAt": 1653318607827,
+      "category-id": "1"
+    },
+    {
+      "product-name-en": "Samsung Galaxy s22",
+      "product-name-fa": "سامسونگ گلکسی مدل s22",
+      "images": ["cfd765fcd5a5638dd86fbe6861a4dc0c"],
+      "thumbnail": "cfd765fcd5a5638dd86fbe6861a4dc0c",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "30000000",
+        "amount-discount": "200000"
+      },
+
+      "description": {
+        "en": "",
+        "fa": "<div style=\"color: #eeffff;background-color: #263238;font-family: Consolas, 'Courier New', monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;\"><div><span style=\"color: #c3e88d;\">گوشی موبایل سامسونگ مدل Galaxy S22 Plus دو سیم کارت ظرفیت 128 گیگابایت و رم 8 گیگابایت</span></div></div>"
+      },
+      "count": "25",
+      "createdAt": 1652819220312,
+      "updatedAt": 1652819220298,
+      "category-id": "2",
+      "id": 24
+    },
+    {
+      "product-name-en": "iPhone 11 ",
+      "product-name-fa": " اپل مدل iPhone 11 A2223",
+      "images": [
+        "e7d232542d82bd4c104d8c7536d6b472",
+        "b5209fbe3ab4a742347fca6fbe89efea",
+        "e108203e41482efabfb487bf610e5d8c"
+      ],
+      "thumbnail": "e7d232542d82bd4c104d8c7536d6b472",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "26000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 128GB And 4GB RAM</p>",
+        "fa": "<p>دو سیم‌ کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت</p>"
+      },
+      "count": 29,
+      "createdAt": 1652822046149,
+      "updatedAt": 1652822046142,
+      "category-id": "1",
+      "id": 25
+    },
+    {
+      "product-name-en": "iPhone SE ",
+      "product-name-fa": "اپل مدل iPhone SE ",
+      "images": [
+        "afdc90da4a5f084598005d31e60f05cc",
+        "a640dc9496f08cee8770f860cacec6ba"
+      ],
+      "thumbnail": "afdc90da4a5f084598005d31e60f05cc",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "14000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>128GB And 3GB RAM</p>",
+        "fa": "<p>ظرفیت 128 گیگابایت و 3 گیگابایت رم</p>"
+      },
+      "count": 8,
+      "createdAt": 1652822405725,
+      "updatedAt": 1652822405718,
+      "category-id": "1",
+      "id": 26
+    },
+    {
+      "product-name-en": "Galaxy S22 Ultra 5G",
+      "product-name-fa": "سامسونگ مدل Galaxy S22 Ultra 5G",
+      "images": [
+        "978dccdd175050b8ebb54d9c1bb39adb",
+        "b00878682e9fc2b6b8439970961b32ef"
+      ],
+      "thumbnail": "978dccdd175050b8ebb54d9c1bb39adb",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "39000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 512GB With 12GB RAM</p>",
+        "fa": "<p>دو سیم کارت ظرفیت 512 گیگابایت و رم 12</p>"
+      },
+      "count": 12,
+      "createdAt": 1652822971425,
+      "updatedAt": 1652822971421,
+      "category-id": "2",
+      "id": 27
+    },
+    {
+      "product-name-en": " Galaxy S22 Plus 5G",
+      "product-name-fa": "سامسونگ مدل Galaxy S22 Plus 5G",
+      "images": [
+        "75164f3ff6283de42cf67b42f54b627a",
+        "366517c05ec76e9c39c7e79853f3f832",
+        "0fcebe9da7aa16af710d65bc5b5fa626"
+      ],
+      "thumbnail": "75164f3ff6283de42cf67b42f54b627a",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "33000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 256GB And 8GB RAM</p>",
+        "fa": "<p>دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت</p>"
+      },
+      "count": 8,
+      "createdAt": 1652823241323,
+      "updatedAt": 1652823241320,
+      "category-id": "2",
+      "id": 28
+    },
+    {
+      "product-name-en": "Galaxy S21 Ultra",
+      "product-name-fa": "سامسونگ مدل Galaxy S21 Ultra ",
+      "images": ["4e77674e1bfa945d17dd43172807adfb"],
+      "thumbnail": "4e77674e1bfa945d17dd43172807adfb",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "36000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 256GB With 12GB RAM</p>",
+        "fa": "<p>دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت</p>"
+      },
+      "count": 19,
+      "createdAt": 1652823690841,
+      "updatedAt": 1652823690837,
+      "category-id": "2",
+      "id": 29
+    },
+    {
+      "product-name-en": "Galaxy A12",
+      "product-name-fa": " سامسونگ مدل Galaxy A12  ",
+      "images": ["374df1b178e71c203e3a91114b2d0507"],
+      "thumbnail": "374df1b178e71c203e3a91114b2d0507",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "5000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 128GB And 6GB RAM</p>",
+        "fa": "<p>دو سیم کارت ظرفیت 128 گیگابایت و رم 6 گیگابایت</p>"
+      },
+      "count": 7,
+      "createdAt": 1652824017160,
+      "updatedAt": 1652824017156,
+      "category-id": "2",
+      "id": 30
+    },
+    {
+      "product-name-en": "Redmi K40",
+      "product-name-fa": "شیائومی مدل Redmi K40",
+      "images": [
+        "cdfff8dc07193819ecee2ca4000bee93",
+        "28f5bba7b84e95c7b4714208a17def34"
+      ],
+      "thumbnail": "cdfff8dc07193819ecee2ca4000bee93",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "12000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 256GB And 12GB RAM</p>",
+        "fa": "<p>دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت</p>"
+      },
+      "count": 8,
+      "createdAt": 1652824435565,
+      "updatedAt": 1652824435559,
+      "category-id": "3",
+      "id": 31
+    },
+    {
+      "product-name-en": "Poco X4 Pro 5G",
+      "product-name-fa": "شیائومی مدل Poco X4 Pro 5G ",
+      "images": [
+        "fcb135a7a7267df2711448e5478a9a6d",
+        "d3e843a9b68b63fbcac50b05044389cb"
+      ],
+      "thumbnail": "fcb135a7a7267df2711448e5478a9a6d",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "8000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 256GB And 8GB RAM</p>",
+        "fa": "<p>دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت</p>"
+      },
+      "count": 14,
+      "createdAt": 1652824763814,
+      "updatedAt": 1652824763811,
+      "category-id": "3",
+      "id": 32
+    },
+    {
+      "product-name-en": " lite 5G NE ",
+      "product-name-fa": "شیائومی مدل lite 5G NE ",
+      "images": [
+        "f9d1e05fe6afeb9e49785a9b39ef8a40",
+        "7e09709f463fffe8cadaa427d213f57c",
+        "c6b106c141d640ba08619141b9087d18",
+        "13ec2ef3259be80018af58394899615a"
+      ],
+      "thumbnail": "f9d1e05fe6afeb9e49785a9b39ef8a40",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "8000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 256GB And 8GB RAM</p>",
+        "fa": "<p>دو سیم‌ کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت</p>"
+      },
+      "count": 21,
+      "createdAt": 1652824999377,
+      "updatedAt": 1652824999373,
+      "category-id": "3",
+      "id": 33
+    },
+    {
+      "product-name-en": "Xiaomi 12 ",
+      "product-name-fa": "شیائومی مدل 12 ",
+      "images": ["bae65b9c251eceba71abee27f292e45e"],
+      "thumbnail": "bae65b9c251eceba71abee27f292e45e",
+
+      "price": {
+        "currency": "IRR",
+        "amount": "22000000",
+        "amount-discount": "0"
+      },
+
+      "description": {
+        "en": "<p>Dual SIM 256GB And 12GB RAM</p>",
+        "fa": "<p>دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت</p>"
+      },
+      "count": 7,
+      "createdAt": 1652825237121,
+      "updatedAt": 1652825237115,
+      "category-id": "3",
+      "id": 34
+    },
+    {
+      "product-name-en": "iPhone 13 pro",
+      "product-name-fa": "آیفون 13 پرو",
+      "images": ["341dbe76743ca2bc0190ba08a9f64afd"],
+      "thumbnail": "341dbe76743ca2bc0190ba08a9f64afd",
+      "price": {
+        "currency": "IRR",
+        "amount": "45000000",
+        "amount-discount": "0"
+      },
+      "description": {
+        "en": "<p>Dual SIM 256GB And 6GB</p>",
+        "fa": "<p>دو سیم‌ کارت ظرفیت 256 گیگابایت و 6 گیگابایت رم</p>"
+      },
+      "count": 21,
+      "createdAt": 1652982247160,
+      "updatedAt": 1652982247147,
+      "category-id": "1",
+      "id": 35
+    }
+  ],
+  "category": [
+    {
+      "name-en": "apple",
+      "name-fa": "اپل",
+      "createdAt": 1652819220312,
+      "id": 1
+    },
+    {
+      "name-en": "samsung",
+      "name-fa": "سامسونگ",
+      "createdAt": 1652819220312,
+      "id": 2
+    },
+    {
+      "name-en": "xiaomi",
+      "name-fa": "شیائومی",
+      "createdAt": 1652819220312,
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "username": "zahra",
+      "firstName": "زهرا",
+      "lastName": "عباس زاده",
+      "password": "123456",
+      "email": "test@gmail.com",
+      "phone": "09121111111",
+      "address": "تهران",
+      "role": "admin",
+      "createdAt": 1652180509236,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "user-id": 1,
+      "status": "shipped",
+      "name": "زهرا",
+      "family": "عباس زاده",
+      "phone": "09121111111",
+      "address": "تهران",
+      "total-price": 30000000,
+      "delivery-date": "1401/02/25",
+      "products": [
+        {
+          "productId": 24,
+          "quantity": 1
+        }
+      ],
+      "delivered-at": null,
+      "createdAt": 1652180509236,
+      "id": 1
+    },
+    {
+      "user-id": 1,
+      "status": "shipped",
+      "name": "زهرا",
+      "family": "عباس زاده",
+      "phone": "09121111111",
+      "address": "تهران",
+      "total-price": 29000000,
+      "delivery-date": "1401/02/22",
+      "products": [
+        {
+          "productId": 23,
+          "quantity": 1
+        }
+      ],
+      "delivered-at": null,
+      "createdAt": 1652180509236,
+      "id": 2
+    },
+    {
+      "user-id": 1,
+      "status": "pending",
+      "name": "زهرا",
+      "family": "عباس زاده",
+      "phone": "09121111111",
+      "address": "تهران",
+      "total-price": 26000000,
+      "delivery-date": "1401/03/10",
+      "products": [
+        {
+          "productId": 25,
+          "quantity": 1
+        }
+      ],
+      "delivered-at": null,
+      "createdAt": 1652982247160,
+      "id": 3
+    },
+    {
+      "user-id": 1,
+      "status": "pending",
+      "name": "زهرا",
+      "family": "عباس زاده",
+      "phone": "09121111111",
+      "address": "تهران",
+      "total-price": 53000000,
+      "delivery-date": "1401/03/09",
+      "products": [
+        {
+          "productId": 26,
+          "quantity": 1
+        },
+        {
+          "productId": 27,
+          "quantity": 1
+        }
+      ],
+      "delivered-at": null,
+      "createdAt": 1652982247160,
+      "id": 4
+    },
+    {
+      "user-id": 1,
+      "status": "shipped",
+      "name": "زهرا",
+      "family": "عباس زاده",
+      "phone": "09121111111",
+      "address": "تهران",
+      "total-price": 21000000,
+      "delivery-date": "1401/03/11",
+      "products": [
+        {
+          "productId": 30,
+          "quantity": 1
+        },
+        {
+          "productId": 33,
+          "quantity": 2
+        }
+      ],
+      "delivered-at": null,
+      "createdAt": 1654080833468,
+      "id": 5
+    },
+    {
+      "user-id": 1,
+      "status": "pending",
+      "name": "زهرا",
+      "family": "عباس زاده",
+      "phone": "09121111111",
+      "address": "تهران",
+      "total-price": 21000000,
+      "delivery-date": "1401/03/11",
+      "products": [
+        {
+          "productId": 30,
+          "quantity": 1
+        },
+        {
+          "productId": 33,
+          "quantity": 2
+        }
+      ],
+      "delivered-at": null,
+      "createdAt": 1654080833541,
+      "id": 6
+    },
+    {
+      "user-id": 1,
+      "status": "pending",
+      "name": "زهرا",
+      "family": "عباس زاده",
+      "phone": "09121111111",
+      "address": "تهران",
+      "total-price": 38000000,
+      "delivery-date": "1401/03/11",
+      "products": [
+        {
+          "productId": 30,
+          "quantity": 1
+        },
+        {
+          "productId": 28,
+          "quantity": 1
+        }
+      ],
+      "delivered-at": null,
+      "createdAt": 1654080999001,
+      "id": 7
+    },
+    {
+      "user-id": 1,
+      "status": "shipped",
+      "name": "زهرا",
+      "family": "عباس زاده",
+      "phone": "09121111111",
+      "address": "تهران",
+      "total-price": 45000000,
+      "delivery-date": "1401/03/13",
+      "products": [
+        {
+          "productId": 35,
+          "quantity": 1
+        }
+      ],
+      "delivered-at": null,
+      "createdAt": 1654235117682,
+      "id": 8
+    }
+  ],
+  "whoami": {
+    "username": "zahra",
+    "firstName": "زهرا",
+    "lastName": "عباس زاده",
+    "password": "123456",
+    "email": "test@gmail.com",
+    "phone": "09121111111",
+    "address": "تهران",
+    "role": "admin",
+    "createdAt": 1652180509236,
+    "id": 1
+  },
+  "protection": {
+    "products.get": false,
+    "products.post": true,
+    "products.put": false,
+    "orders.post": true,
+    "upload": true,
+    "upload.get": false,
+    "products": "admin",
+    "orders": "admin",
+    "users": false,
+    "protection": "admin"
+  }
+}
