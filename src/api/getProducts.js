@@ -20,3 +20,33 @@ export async function FilterProductByCategories(categorieId) {
     return Promise.reject(e);
   }
 }
+
+export async function ProductsPagination(categoryId, page, pageSize, sortDate) {
+  try {
+    if (categoryId == "all") {
+      const response = await http.get(
+        GET_PRODUCTS +
+          "?_page=" +
+          page +
+          "&_limit=" +
+          pageSize +
+          "&_sort=createdAt&_order=" +
+          sortDate
+      );
+      return response;
+    } else {
+      const response = await http.get(
+        GET_PRODUCTS +
+          "?category-id=" +
+          categorieId +
+          "&_page=" +
+          page +
+          "&_limit=" +
+          pageSize +
+          "&_sort=createdAt&_order=" +
+          sortDate
+      );
+      return response;
+    }
+  } catch (error) {}
+}

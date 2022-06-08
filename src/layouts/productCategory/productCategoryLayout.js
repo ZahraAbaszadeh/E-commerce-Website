@@ -59,6 +59,26 @@ export const ProductCategory = (props) => {
           setAllProducts(res.data);
         });
       }
+
+      if (props.category == "all") {
+        ProductsPagination(
+          "all",
+          props.currentPage,
+          props.perPage,
+          sortStatus
+        ).then(() => {
+          setProducts(res.data);
+        });
+      } else {
+        ProductsPagination(
+          categoryId,
+          props.currentPage,
+          props.perPage,
+          sortStatus
+        ).then((res) => {
+          setProducts(res.data);
+        });
+      }
     }
   }, [categoryId, props.currentPage, sortStatus]);
 };
