@@ -11,7 +11,7 @@ import {
   ProductsPagination,
 } from "../../api/getProducts";
 import { GetCategories } from "../../api/getCategory";
-import { PATHS } from "configs/routesConfig";
+import { PATHS } from "../../configs/routesConfig";
 import { sortByAsc, sortByDesc } from "redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
