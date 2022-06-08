@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import Styles from "./productCategory.module.css";
-import Button from "../../components/Button/Button";
-import Input from "../../components/Input/Input";
+import Button from "../../components/Button/ButtonComponent";
+import Input from "../../components/Input/InputComponent";
 import Navigation from "../../components/Navigation/NavigationComponent";
 import Card from "../../components/Card/CardComponent";
 import {
