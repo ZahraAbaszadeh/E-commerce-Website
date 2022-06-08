@@ -9,3 +9,14 @@ export async function GetProducts() {
     return Promise.reject(e);
   }
 }
+
+export async function FilterProductByCategories(categorieId) {
+  try {
+    const response = await http.get(
+      GET_PRODUCTS + "?category-id=" + categorieId
+    );
+    return response;
+  } catch (e) {
+    return Promise.reject(e);
+  }
+}

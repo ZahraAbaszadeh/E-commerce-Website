@@ -50,11 +50,15 @@ export const ProductCategory = (props) => {
 
   useEffect(() => {
     if (categoryId) {
-      if(props.category == "all") {
+      if (props.category == "all") {
         GetProducts().then((res) => {
+          setAllProducts(res.data);
+        });
+      } else {
+        FilterProductByCategories(categoryId).then((res) => {
           setAllProducts(res.data);
         });
       }
     }
-  },[categoryId, props.currentPage, sortStatus]);
+  }, [categoryId, props.currentPage, sortStatus]);
 };
