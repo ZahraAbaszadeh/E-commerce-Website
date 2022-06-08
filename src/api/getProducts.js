@@ -38,7 +38,7 @@ export async function ProductsPagination(categoryId, page, pageSize, sortDate) {
       const response = await http.get(
         GET_PRODUCTS +
           "?category-id=" +
-          categorieId +
+          categoryId +
           "&_page=" +
           page +
           "&_limit=" +
@@ -48,5 +48,7 @@ export async function ProductsPagination(categoryId, page, pageSize, sortDate) {
       );
       return response;
     }
-  } catch (error) {}
+  } catch (error) {
+    return Promise.reject(e);
+  }
 }
