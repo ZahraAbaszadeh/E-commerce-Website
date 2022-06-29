@@ -1,0 +1,86 @@
+.caroselContainer {
+  height: 50rem;
+  margin: 0rem;
+  position: relative;
+}
+
+.catProductsBox {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 3rem;
+  overflow-x: auto;
+}
+
+.firstCatProduct,
+.secondCatProduct,
+.thirdCatProduct {
+  margin-bottom: 5rem;
+}
+.secondCatProduct {
+  background-color: #81c784;
+}
+.secondCatProduct Button {
+  border: 6px solid #4a7d2c;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.firstCatProduct {
+  background-color: #9fa8da;
+}
+.firstCatProduct Button {
+  border: 6px solid #2f77a3;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.thirdCatProduct {
+  background-color: #78909c;
+}
+.thirdCatProduct Button {
+  border: 6px solid #212169;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.firstCatProduct .firstCatProductHeader,
+.secondCatProduct .secondCatProductHeader,
+.thirdCatProduct .thirdCatProductHeader {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  .firstCatProduct .firstCatProductHeader,
+  .secondCatProduct .secondCatProductHeader,
+  .thirdCatProduct .thirdCatProductHeader {
+    justify-content: center;
+    gap: 2.5rem;
+  }
+}
+
+.secondBanner {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 0rem 2.5rem 5.5rem 2.5rem;
+}
+
+.secondBanner img:nth-child(1) {
+  border-radius: 1rem;
+  width: 65rem;
+}
+
+.secondBanner img:nth-child(2) {
+  border-radius: 1rem;
+  width: 20.5rem;
+}

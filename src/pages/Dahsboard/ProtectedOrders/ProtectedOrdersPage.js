@@ -1,15 +1,20 @@
-import { Button, Input, Navigation, Table } from "components";
-import { DashboardLayout, Footer, Header } from "layouts";
 import React, { useEffect, useState } from "react";
-import { Helmet } from "react-helmet";
-import Styles from "./ProtectedOrders.page.module.css";
-import { GetOrder, GetOrders } from "api/getOrder.api";
-import { convertMiladiToShamsi, ShowPrice } from "utils/functions.util";
-import { GetUserData, GetUserFullName } from "api/getUserData.api";
+import { Navigation } from "../../../components/Navigation/NavigationComponent";
+import { Button } from "../../../components/Button/ButtonComponent";
+import { Input } from "../../../components/Input/InputComponent";
+import { Table } from "../../../components/Table/TableComponent";
+import { DashboardLayout } from "../../../layouts/productCategory/productCategoryLayout";
+import { Header } from "../../../layouts/header/headerLayout";
+import { Footer } from "../../../layouts/footer/footerLayout";
+import Styles from "./ProtectedOrdersPage.module.css";
+import { GetOrder, GetOrders } from "../../../api/getOrderApi";
+import { convertMiladiToShamsi } from "../../../utils/function";
+import { GetUserData, GetUserFullName } from "../../../api/getUserDataApi";
 import swal from "sweetalert";
 import Modal from "react-modal";
-import { GetProduct } from "api/Product.api";
-import { updateOrder } from "api/updateOrder";
+import { Helmet } from "react-helmet";
+import { GetProduct } from "../../../api/getProducts";
+import { updateOrder } from "../../../api/updateOrder";
 
 export const ProtectedOrdersPage = (props) => {
   const [allData, setAllData] = useState([]);

@@ -1,7 +1,7 @@
+import React, { Fragment, useEffect, useRef, useState } from "react";
 import JoditEditor from "jodit-react";
 import Modal from "react-modal";
-import React, { Fragment, useEffect, useRef, useState } from "react";
-import Styles from "./Product.page.module.css";
+import Styles from "./ProductPage.module.css";
 import swal from "sweetalert";
 
 import {
@@ -10,14 +10,18 @@ import {
   GetProduct,
   GetProducts,
   UpdateProduct,
-} from "api/Product.api";
+} from "../../../api/getProducts";
 
-import { Button, Input, Table } from "components";
-import { DashboardLayout, Footer, Header } from "layouts";
-import { GetCategories, GetCategory } from "api/getCategory.api";
+import { Button } from "../../../components/Button/ButtonComponent";
+import { Input } from "../../../components/Input/InputComponent";
+import { Table } from "../../../components/Table/TableComponent";
+import { DashboardLayout } from "../../../layouts/productCategory/productCategoryLayout";
+import { Footer } from "../../../layouts/footer/footerLayout";
+import { Header } from "../../../layouts/header/headerLayout";
+import { GetCategories, GetCategory } from "../../../api/getCategory";
+import { ShowPrice } from "../../../utils/function";
+import { UploadImage } from "../../../api/UploadImageApi";
 import { Helmet } from "react-helmet";
-import { ShowPrice } from "utils/functions.util";
-import { UploadImage } from "api/UploadImage.api";
 
 export const UserProductPage = (props) => {
   const [showModal, setShowModal] = useState(false);

@@ -1,6 +1,5 @@
-export { UserProductPage } from "./Product/Product.page";
-export { UserQuantityPage } from "./Quantity/Quantity.page";
-export { UserOrdersPage } from "./Orders/Orders.page";
-export { UserExitPage } from "./Exit/Exit.page";
-export { ProtectedOrdersPage } from "./ProtectedOrders/ProtectedOrders.page";
-export { UserCategoryPage } from "./Category/Category.page"
+export { UserProductPage } from "./Product/ProductPage";
+export { UserQuantityPage } from "./Quantity/QuantityPage";
+export { UserExitPage } from "./Exit/ExitPage";
+export { ProtectedOrdersPage } from "./ProtectedOrders/ProtectedOrdersPage";
+export { UserCategoryPage } from "./Category/CategoryPage"

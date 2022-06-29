@@ -1,0 +1,89 @@
+.table {
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgb(0 0 0 / 40%);
+  margin: 5rem auto;
+  width: 70%;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+}
+
+.table th {
+  text-align: left;
+}
+
+.table .thead th {
+  width: 0rem;
+  text-align: center;
+  color: #fff;
+  border-left: 1px solid #d2d2ea;
+  border-bottom: 1px solid #d2d2ea;
+  background: #22283b;
+}
+
+.table .tbody tr:hover {
+  background-color: #eaeaea;
+}
+
+.table .tbody td {
+  position: relative;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-left: 1px solid #d2d2ea;
+  border-bottom: 1px solid #d2d2ea;
+}
+
+.table .tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  z-index: -1;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.pagination__number {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.pagination__select select {
+  height: 4rem;
+  border: 0.1rem solid rgb(244, 232, 232);
+  border-radius: 0.4rem;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  color: rgb(67, 67, 67);
+  outline: none;
+  text-align: center;
+}
+
+.filterBox {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+Button {
+  font-size: 1rem !important;
+  padding: 0.7rem !important;
+}

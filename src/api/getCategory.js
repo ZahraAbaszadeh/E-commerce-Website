@@ -1,5 +1,5 @@
-import { GET_CATEGORIES } from "configs/urlConfig";
-import http from "services/httpService";
+import { GET_CATEGORIES } from "../configs/urlConfig";
+import http from "../services/httpService";
 
 export async function GetCategories() {
   try {

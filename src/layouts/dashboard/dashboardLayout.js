@@ -1,11 +1,22 @@
 import React from "react";
+<<<<<<< HEAD
 import { Navigation } from "../../components/Navigation/NavigationComponent";
 import { PATHS } from "configs/routesConfig";
 import Styles from "./dashboardLayout.module.css";
+=======
+import Styles from "./dashboardLayout.module.css";
+import { PATHS } from "../../configs/routesConfig";
+import { Navigation } from "../../components/Navigation/NavigationComponent";
+
+>>>>>>> develope
 export const DashboardLayout = (props) => {
   const userData = localStorage.hasOwnProperty("userData")
     ? JSON.parse(localStorage.getItem("userData"))
     : {};
+<<<<<<< HEAD
+=======
+
+>>>>>>> develope
   return (
     <div className={Styles.DashboardLayout}>
       <div className={Styles.row}>
