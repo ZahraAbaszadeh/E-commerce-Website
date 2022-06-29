@@ -2,7 +2,7 @@ import {
   ACCESS_TOKEN,
   IS_LOGGED_IN,
   REFRESH_TOKEN,
-} from "configs/variablesConfig";
+} from "../configs/variablesConfig";
 import Navigate from "universal-navigate";
 
 export const parseJwt = (token) => {
